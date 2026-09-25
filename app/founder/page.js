@@ -25,9 +25,9 @@ export default function FounderPage() {
             <div className="founder-name">Haramohan Mahalik</div>
             <div className="founder-role">Founder &amp; CEO, Netvly</div>
             <div className="founder-links">
-              <a href="#">LinkedIn</a>
-              <a href="#">Twitter</a>
-              <a href="mailto:hello@netvly.com">Email</a>
+              <a href="https://www.linkedin.com/company/netvly/">LinkedIn</a>
+              {/* <a href="#">Twitter</a> */}
+              <a href="mailto:haramohan222@gmail.com">Email</a>
             </div>
           </div>
         </div>
