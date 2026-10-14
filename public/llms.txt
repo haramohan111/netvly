@@ -1,0 +1,16 @@
+# Netvly
+
+> Netvly is a product studio that designs, builds and launches web apps and mobile apps for teams who need a real product shipped by one team, start to finish.
+
+## Pages
+
+- [Home](https://netvly.com/): Services, process, selected work (BullVera, Netv, AstroV), tech stack, FAQ and contact.
+- [About](https://netvly.com/about): What Netvly does and how the team works.
+- [Founder](https://netvly.com/founder): Haramohan Mahalik, founder and CEO of Netvly.
+- [Privacy Policy](https://netvly.com/privacy)
+- [Terms & Conditions](https://netvly.com/terms)
+
+## Contact
+
+- Email: hello@netvly.com
+- Location: Bhubaneswar, India
