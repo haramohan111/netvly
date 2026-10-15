@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrap foot-row">
-        <p>© 2026 Netvly. All rights reserved.</p>
+        <p>© 2026 Netvly Technologies. All rights reserved.</p>
         <ul className="foot-links">
           <li>
             <Link href="/#services">Services</Link>
