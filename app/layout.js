@@ -16,22 +16,28 @@ const inter = Inter({
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://netvly.com";
 
 const SITE_DESCRIPTION =
-  "Netvly is a product studio for teams who need a real web app and mobile app — designed, engineered, and launched by one team, start to finish.";
+  "Netvly Technologies is a product studio for teams who need a real web app and mobile app — designed, engineered, and launched by one team, start to finish.";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Netvly — Web & Mobile App Development",
-    template: "%s",
+    default: "Netvly Technologies | Web & Mobile App Development Studio",
+    template: "%s | Netvly Technologies",
   },
-    verification: {
+  description: SITE_DESCRIPTION,
+  keywords: [
+    "Web App Development",
+    "Mobile App Development",
+    "Product Design Studio",
+    "Next.js Development",
+    "Software Engineering Studio",
+  ],
+  verification: {
     google: "E4kuZv4PXsWy4YhqRgtgJXULfI00tHQso1amWsGYvG8E",
   },
   other: {
-    // Microsoft / Bing Webmaster Tools verification code
     'msvalidate.01': 'DD917B49CA709EC1FCDB4EBE98C410DC',
   },
-  description: SITE_DESCRIPTION,
   alternates: {
     canonical: "/",
   },
@@ -43,10 +49,10 @@ export const metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
-    title: "Netvly — Web & Mobile App Development",
+    title: "Netvly Technologies — Web & Mobile App Development",
     description: SITE_DESCRIPTION,
     url: SITE_URL,
-    siteName: "Netvly",
+    siteName: "Netvly Technologies",
     type: "website",
     locale: "en_US",
     images: [
@@ -54,13 +60,15 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Netvly — Web & Mobile App Development",
+        alt: "Netvly Technologies — Web & Mobile App Development",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Netvly — Web & Mobile App Development",
+    site: "@netvly",
+    creator: "@netvly",
+    title: "Netvly Technologies — Web & Mobile App Development",
     description: SITE_DESCRIPTION,
     images: ["/og-image.png"],
   },
@@ -69,16 +77,21 @@ export const metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Netvly",
+  name: "Netvly Technologies",
   url: SITE_URL,
   description: SITE_DESCRIPTION,
-  email: "abc@gmail.com",
+  email: "contact@netvly.com", // Updated from dummy email
+  logo: `${SITE_URL}/favicon-512.png`,
+  sameAs: [
+    "https://www.linkedin.com/company/netvly/",
+    "https://x.com/netvly"
+  ],
 };
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Netvly",
+  name: "Netvly Technologies",
   url: SITE_URL,
 };
 
