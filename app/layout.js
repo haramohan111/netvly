@@ -34,7 +34,7 @@ export const metadata = {
     "Software Engineering Studio",
   ],
   verification: {
-    google: "E4kuZv4PXsWy4YhqRgtgJXULfI00tHQso1amWsGYvG8E",
+    google: "E4kuZv4PXsWy4YhqRgtgJXULfI00tHQso1amWsGYvG8",
   },
   other: {
     'msvalidate.01': 'DD917B49CA709EC1FCDB4EBE98C410DC',
