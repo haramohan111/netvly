@@ -23,7 +23,7 @@ export default function ContactForm() {
       message,
     ];
     const mailtoLink =
-      "mailto:haramohan222@gmail.com" +
+      "mailto:info@netvly.com" +
       `?subject=${encodeURIComponent(subject)}` +
       `&body=${encodeURIComponent(bodyLines.join("\n"))}`;
 
