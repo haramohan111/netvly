@@ -29,7 +29,7 @@ export default function FounderPage() {
             <div className="founder-links">
               <a href="https://www.linkedin.com/company/netvly/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="https://x.com/netvly" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="mailto:haramohan222@gmail.com">Email</a>
+              <a href="mailto:info@netvly.com">Email</a>
             </div>
           </div>
         </div>

@@ -376,7 +376,7 @@ export default function HomePage() {
               <ContactForm />
 
               <div className="contact-info">
-                <a href="mailto:haramohan222@gmail.com">haramohan222@gmail.com</a>
+                <a href="mailto:info@netvly.com">info@netvly.com</a>
                 <a href="tel:+919556213317">+91 95562 13317</a>
                 <span>Hyderabad, India</span>
               </div>
